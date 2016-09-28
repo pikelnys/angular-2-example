@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let todo of todos" [class.completed]="todo.completed">
+    CONTENT: {{ todo.content }}; <input [(ngModel)]="todo.content" placeholder="content"><br>
+    COMPLETED: {{ todo.completed }}
+    <span class="complete-marker" (click)="isComplete(todo, true)">mark complete</span> |
+    <span class="complete-marker" (click)="isComplete(todo, false)">mark incomplete</span>
+  </li>
+</ul>

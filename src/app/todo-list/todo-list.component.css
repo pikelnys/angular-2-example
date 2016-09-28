@@ -1,0 +1,22 @@
+li {
+  margin-top: 15px;
+}
+
+input {
+  width: 400px;
+  background-color: beige;
+  font-size: 18px;
+}
+
+.complete-marker {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: green
+}
+
+.interference {
+  color: pink;
+}
